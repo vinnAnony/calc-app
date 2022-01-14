@@ -1,0 +1,22 @@
+{
+  "name": "calc-app",
+  "version": "1.0.0",
+  "description": "Calculator app & testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinnAnony/calc-app.git"
+  },
+  "author": "Vinn Njeru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinnAnony/calc-app/issues"
+  },
+  "homepage": "https://github.com/vinnAnony/calc-app#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
