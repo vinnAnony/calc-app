@@ -47,7 +47,7 @@ function clearScreen() {
 
 function appendNumber(number) {
 
-    //if (number === '.' && currentOperand.includes('.')) return;
+    if (number === '.' && currentOperand.includes('.')) return;
     if (previousOperand !== '' && myOperation != null){
         currentOperand = currentOperand.toString() + number.toString();
     }
